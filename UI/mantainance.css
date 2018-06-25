@@ -1,0 +1,219 @@
+
+h1{
+    color:whitesmoke;
+    font-size: 3em;
+    font-style: italic;
+    text-align: center;
+    background-color:rgb(100, 186, 56);
+   }
+.pageinfo{
+    font-size: 2.0em;
+}
+#signupinfo{
+    font-style: italic;
+}
+#signininfo{
+    font-style: italic;
+}
+
+.center.align{
+    text-align: center;
+}
+.signin{
+    justify-content: center;
+}
+li{
+    display: inline-block;
+    border-color: rgb(100, 186, 56); padding: 10px;
+    border: 2px solid rgb(100, 186, 56);
+    border-radius: 10px;
+    
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background:white;}
+ul li:hover ul {display: block;}
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+a:hover {
+    background: rgb(100, 186, 56);
+       width: 200px;
+       background: white;
+       
+}
+.topnav
+{
+    background-color:whitesmoke;
+    overflow: hidden;
+    padding-top:0px;
+}
+
+
+
+.header{
+      background-color:rgb(100, 183, 86);
+    }
+    
+    table{
+        
+        display:table;
+        padding-top:1px;
+        font-family: 'Times New Roman';
+        font-style: italic;
+        text-decoration-color: whitesmoke;
+       
+        
+    }
+    
+    #submit {
+        background-color: rgb(100, 186, 86);
+        font-style: italic;
+    }
+    form.signup{
+        float:right;
+        width:40%;
+        height: 350px;
+       
+    }
+    #signup{
+        float: right;
+        height: 400px;
+    }
+.signup{
+    max-width: 450px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgb(100,183,86);
+    border-radius: 20px;
+    border: 6px solid rgb(100,183,86);
+    float: right;
+
+}
+.signup{
+    padding:0;
+    margin:0;
+    list-style:none;
+
+}
+.signup ul li{
+    display: block;
+    margin-bottom: 25px;
+    min-height: 35px;
+}
+.signup ul li  .field-style{
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    padding: 8px;
+    outline: none;
+    border: 1px solid rgb(100, 183, 86);
+    
+}.signup ul li  .field-style:focus{
+    box-shadow: 0 0 5px wheat;
+    border:1px solid wheat;
+}
+.signup ul li .field-split{
+    width: 49%;
+}
+.signup ul li .field-full{
+    width: 100%;
+}
+.signup ul li input.align-left{
+    float:left;
+}
+.signup ul li input.align-right{
+    float:right;
+}
+.signup ul li textarea{
+    width: 100%;
+    height: 100px;
+}
+.signup ul li input[type="button"], 
+.signup ul li input[type="submit"] {
+    -moz-box-shadow: inset 0px 1px 0px 0px wheat;
+    -webkit-box-shadow: inset 0px 1px 0px 0px wheat;
+    box-shadow: inset 0px 1px 0px 0px rgb(100, 183, 86);
+    background-color:rgb(100, 183, 86);
+    border: 1px solid rgb(100, 183, 86);
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    text-decoration: none;
+    font: 12px Arial, sans-serif;
+    border-radius: 10px;
+
+    }
+.signup ul li input[type="button"]:hover, 
+.signup ul li input[type="submit"]:hover {
+    background: linear-gradient(to bottom, rgb(100,183,86) 5%, rgb(100,183,86) 100%);
+    background-color: whitesmoke;
+}
+.content{
+    max-width: 500px;
+    margin: auto;
+}
+body {  margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    width:950;
+    height:685;
+    align-content: center;
+ }
+ .left{
+     padding-right: 450px;
+     font-style: italic;
+     font-size:20px;
+ }
+ #image{
+
+     float: left;
+     padding-top: 0px;
+     width:50%;
+     height:350px;
+     
+ }
+ #requestform{
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 0px auto;
+    box-shadow: 1px 1px 25px rgb(100,183,86);
+    border-radius: 20px;
+    border: 6px solid rgb(100,183,86);
+    float: left;
+    padding-top: 0px;
+ }
+ #act{
+     padding-top:20px;
+     padding-bottom: 0px; 
+     border-radius: 50px;
+ }
+ #admin{
+     float:right;
+ }
+ .landing
+ {
+     padding-top: 0px;
+     
+ }
+ #create{
+     font-style: italic;
+    
+ }
+ #checkrequest{
+     float:right;
+ }
+ button{
+     color:whitesmoke;
+     background-color: rgb(100, 186, 56);
+ }
+ 
